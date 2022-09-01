@@ -60,7 +60,7 @@ The following instructions are written targeting an Ubuntu 18.04 system. If you 
     This will use the os default keychain
 
     ```bash
-    rebusd keys add <your key name> --coin-type 118 —-algo secp256k1
+    rebusd keys add <your key name> --coin-type 118 --algo secp256k1
     ```
 
     Make sure to keep the mnemonic seed that is needed to receive rewards at the time of the mainnet launch.
@@ -68,7 +68,7 @@ The following instructions are written targeting an Ubuntu 18.04 system. If you 
     Import key from ledger Nano s/x
 
     ```bash
-    rebusd keys add <your key name> –-ledger —-coin-type 118 —-algo secp256k1
+    rebusd keys add <your key name> –-ledger --coin-type 118 --algo secp256k1
     ```
 
 4. Add the account to your local genesis file with a given amount and key you just created.
