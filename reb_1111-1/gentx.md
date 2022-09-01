@@ -13,7 +13,7 @@ A `gentx` does three things:
 Software:
 
 - Go version: [v1.18+](https://golang.org/dl/)
-- Rebus version: [v0.0.2](https://github.com/rebuschain/rebus.core/tree/v0.0.2)
+- Rebus version: [v0.0.3](https://github.com/rebuschain/rebus.core/tree/v0.0.3)
 
 To verify that Go is installed:
 
