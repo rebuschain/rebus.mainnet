@@ -80,4 +80,4 @@ The file seeds contains the Rebus id/ip nodes.
 
 - Network Chain ID: `reb_1111-1`
 - EIP155 Chain ID: `1111`
-- rebusd version: `v0.0.3`
+- rebusd version: `v0.1.0`

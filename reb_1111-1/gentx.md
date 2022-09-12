@@ -13,7 +13,7 @@ A `gentx` does three things:
 Software:
 
 - Go version: [v1.18+](https://golang.org/dl/)
-- Rebus version: [v0.0.3](https://github.com/rebuschain/rebus.core/tree/v0.0.3)
+- Rebus version: [v0.1.0](https://github.com/rebuschain/rebus.core/tree/v0.1.0)
 
 To verify that Go is installed:
 
@@ -34,7 +34,7 @@ The following instructions are written targeting an Ubuntu 18.04 system. If you 
     make install
     ```
 
-    Make sure to checkout to master or tags/v0.0.3
+    Make sure to checkout to master or tags/v0.1.0
 
     Verify that everything is OK. If you get something like the following, you've successfully installed Rebus on your system.
 
