@@ -45,20 +45,26 @@ timeout_commit = "2s"
 You can download the genesis file for the chain with all the gentxs submitted and accepted and the intial chain state.
 
 ```
-curl https://raw.githubusercontent.com/rebuschain/rebus.mainnet/master/reb_1111-1/genesis.json > ~/.rebusd/config/genesis.json
+curl https://raw.githubusercontent.com/rebuschain/rebus.mainnet/master/reb_1111-1/genesis.zip > ~/.rebusd/config/genesis.zip
 ```
+
+You need to unzip the genesis.
+```
+unzip genesis.zip
+```
+
 
 We recommend using sha256sum to check the hash of the genesis.
 
 Linux
 ```
 cd ~/.rebusd/config
-echo "d382339b5187693ef2e57ff4f33c571ee9bb238ce9fcd68ca99c02116576c41b  genesis.json" | sha256sum -c
+echo "10cc853d7ccc8ebc67155ee4ffc1bb32caac3f05873df79e866524898b3f20eb  genesis.json" | sha256sum -c
 ```
 MacOS
 ```
 cd ~/.rebusd/config
-echo "d382339b5187693ef2e57ff4f33c571ee9bb238ce9fcd68ca99c02116576c41b  genesis.json" | shasum -a 256 -c
+echo "10cc853d7ccc8ebc67155ee4ffc1bb32caac3f05873df79e866524898b3f20eb  genesis.json" | shasum -a 256 -c
 ```
 
 The correct genesis file is in the https://github.com/rebuschain/rebus.mainnet/tree/master/reb_1111-1 folder
